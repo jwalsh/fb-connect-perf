@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <title>
+      Facebook Connect Performance 
+    </title>
+    <meta property="fb:app_id" content="182514845103601"/>
+  </head>
+  <body>
+
+
+    <div id="fb-root"></div>
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({status: true, cookie: true,xfbml: true});
+      };
+
+      (function() {
+        var e = document.createElement('script'); e.async = true;
+        e.src = document.location.protocol +
+        '//connect.facebook.net/en_US/all.js';
+        document.getElementById('fb-root').appendChild(e);
+      }());
+    </script>
+
+  </body>
+</html>
